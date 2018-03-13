@@ -1,0 +1,45 @@
+/* line 1, ../sass/common.scss */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../sass/common.scss */
+.clr {
+  clear: both;
+}
+
+/* line 13, ../sass/common.scss */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+/* line 18, ../sass/common.scss */
+ul li {
+  position: relative;
+}
+
+/* line 24, ../sass/common.scss */
+.progress {
+  width: 300px;
+  height: 30px;
+  border: 1px solid red;
+}
+/* line 28, ../sass/common.scss */
+.progress .progress_bar {
+  width: 80%;
+  animation: pro 1.5s linear;
+  height: 100%;
+  background-color: red;
+}
+
+@keyframes pro {
+  0% {
+    width: 0%;
+  }
+}
